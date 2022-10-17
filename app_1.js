@@ -2,6 +2,6 @@
 
 document.write("Task 1: ");
 
-for(let i = 20; i < 30.5; i=i+0.5){
+for(let i = 20; i <= 30; i=i+0.5){
     document.write(i+ "  ");
 }
