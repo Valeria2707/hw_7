@@ -4,9 +4,8 @@ document.write("<br>"+"Task 3: ");
 
 let number = prompt("Введіть ціле число для завдання 3");
 
-for(let i = 1; i<101; i++){
+for(let i = 1; i<=100; i++){
     if( i*i <= number){
         document.write(i + " ");
     }
-    continue;
 }
